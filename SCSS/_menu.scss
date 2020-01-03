@@ -98,6 +98,10 @@
             &.active > a {
                 color: $secondary-color;
             }
+
+            :hover {
+                color: $secondary-color;
+            }
         }
     }
 }

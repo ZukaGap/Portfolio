@@ -164,6 +164,10 @@
   color: #FF652F;
 }
 
+.nav .menu-nav__item :hover {
+  color: #FF652F;
+}
+
 body {
   background-color: #272727;
   color: #FFF;
