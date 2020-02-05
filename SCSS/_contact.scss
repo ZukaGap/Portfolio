@@ -1,0 +1,16 @@
+
+.home{
+    &__h2 {
+        font-size: 2rem;
+        
+        a{
+            padding: 1rem;;
+            @include transition-ease;
+
+            &:hover {
+                color:$secondary-color;
+
+            }
+        }
+    }
+}
