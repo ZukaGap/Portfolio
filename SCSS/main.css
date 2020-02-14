@@ -234,7 +234,9 @@
 }
 
 .about__bio .text-secondary {
-  padding-bottom: 1rem;
+  font-family: 'Odibee Sans', cursive;
+  font-size: 4rem;
+  margin-bottom: 2rem;
 }
 
 .about .jobs {
@@ -301,6 +303,7 @@
 }
 
 .projects__bio-image .text-secondary {
+  font-family: 'Odibee Sans', cursive;
   font-size: 2rem;
   margin-bottom: 2rem;
 }
