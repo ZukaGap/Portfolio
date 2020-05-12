@@ -26,3 +26,41 @@
         margin-top: 2rem;
     }
  }
+
+ .text-secondary {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual text-secondary */
+.text-secondary .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+  letter-spacing: 4px;
+}
+
+/* Toggle this class - hide and show the popup */
+.text-secondary .show {
+  visibility: visible;
+  animation: fadeIn 1s;
+}
+  
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

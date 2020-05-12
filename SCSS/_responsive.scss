@@ -64,3 +64,34 @@
         height: 50vh;
     }
 }
+
+@media screen and (max-width: 700px){
+    footer {
+        transform: rotate(90deg) translate(-3rem,-5rem);
+    }
+    
+    .home {
+        padding-top: 20vh;
+        &__name {
+            word-break: break-all;  
+            font-size: 4.5vh;
+            &--last {
+                word-break: break-all;  
+                line-height: 1;
+                white-space: pre;
+                font-size: 4.5vh;
+            }
+        }
+    }
+
+    .contact {        
+        padding-top: 20vh;
+
+        &__list {
+            text-align: center;
+        }
+    }
+    #mail {
+        font-size: 19px;
+    }
+} 
